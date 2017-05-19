@@ -1,0 +1,327 @@
+/*This applies throughout the webpages and starts here*/
+	body{
+		background-color: #FFFFFF;
+		margin: 0px;
+		font-family: Open Sans, serif;
+		font-size: 14px;
+		background: #DCDCDC;
+	}
+	section{
+		position: static;
+		margin: auto;
+		width: 100%;
+	}
+	footer{
+		margin: auto;
+		width: 990px;
+		height: 90px;
+		background: white;
+	}
+	h1{
+		font-family: Michroma, serif;
+	}
+	h2{
+		font-size: 16px;
+		color: #0b5394;
+	}
+
+	h3{
+		font-family: Michroma, serif;
+		font-size: 14px;
+		color: #0b5394;
+		text-align: center;
+	}
+	a {
+		text-decoration: none;
+		color: #0b5394;
+	}
+/*This section ends here*/
+
+
+
+/*The header section applies throughout the webpages and starts here*/
+	header{
+		position: fixed;
+		top: -30px;
+		width: 100%;
+		font-size: 180%;
+		text-align: center;
+		background-color: #FFFFFF;
+	}
+	.navbar{
+		position: fixed;
+		top: 80px;
+		font-family: Michroma, serif;
+		font-size: 12px;
+		color: #073763;
+		width: 100%;
+	}
+	.navbar ul{
+		margin: 0px;
+		padding: 10px;
+		list-style-type: none;
+		text-indent: -40px;
+		text-align: center;
+		background-color: #073763;
+	}
+	.navbar ul li{
+		display: inline-block;
+		font-size: 120%;
+		text-indent: 40px; 
+		text-align: center;
+	}
+	.navbar ul li a{
+		text-decoration: none;
+		color: #FFFFFF;
+	}
+	.navbar ul li a:hover{
+		color: yellow; 
+	}
+	.navbar-header{
+		position: static;
+		width: 100%;
+		height: 120px;
+		background-color: white;
+	}
+/*This ends the section of the navigation bar*/
+
+
+
+/*This starts the home page section*/
+
+	.carousel a{
+		position: static;
+		background-size: cover;
+	}
+	.carousel img{
+		width: 100%;
+		height: auto;
+	}
+	.content{
+		position: static;
+		margin: auto;
+		width: 790px;
+		padding-top: 20px;
+		padding-left: 100px;
+		padding-right: 100px;
+		padding-bottom: 20px;
+		text-align: justify;
+		background-color: white;
+	}
+/*This ends the home page section*/
+
+
+
+/*This starts the portfolio page section*/
+	.portfolio-header{
+		position: fixed;
+		margin: auto;
+		padding-top: 10px;
+		padding-bottom: 10px; 
+		width: 100%;
+		height: 25px;
+		background-color: #bfbfbf;
+	}
+	/*.portfolio-searchbar{
+		position: static;
+		padding-top: 1250px;
+		font-family: Michroma, serif;
+		color: #bfbfbf;
+		padding: 0px;
+		margin: auto;
+		width: 60%;
+		height: 25px;
+		background-color: #FFFFFF;
+		text-align: center;
+	}*/
+	.search-input{
+		position: fixed;
+		margin: auto;
+		top: 127px;
+		left: -80px;
+		right: 10px;
+		padding: 5px;
+		width: 680px;
+	}
+	.search-button{
+		position: fixed;
+		margin: auto;
+		top: 125px;
+		left: 700px;
+		right: 0px;
+		padding: 5px;
+		width: 80px;
+	}
+	.portfolio-searchbar-space{
+		position: static;
+		height: 45px;
+	}
+	.portfolio-container{
+		position: static;
+		margin: auto;
+		padding-top: 25px;
+		padding-left: 100px;
+		padding-right: 100px;
+		width: 790px;
+		height: 490px;
+		background-color: #FFFFFF;
+	}
+	.portfolio-container img:hover{
+		position: static;
+		background-color: #FFFFFF;
+		opacity: 0.5;
+	}
+	.portfolio-image-container{
+		position: static;
+		margin: 0px;
+		display: inline-block;
+		width: 248px;
+		height: 260px;
+		background-color: #FFFFFF;
+		border: 1px solid #b4bec6;
+		padding: 5px;
+	}
+	.portfolio-textbox-container{
+		margin: 0px;
+		display: inline-block;
+		width: 238px;
+		height: 145px;
+		background-color: #FFFFFF;
+		border: 1px solid #b4bec6;
+		text-align: left;
+		vertical-align: middle;
+		padding: 10px;
+	}
+	.portfolio-github-link-container{
+		margin: 0px;
+		display: inline-block;
+		width: 238px;
+		padding-left: 10px;
+		padding-right: 10px;
+		background-color: #FFFFFF;
+		border: 1px solid #b4bec6;
+		text-align: center;
+		list-style-type: none;
+	}
+	.portfolio-github-link-container a{
+		text-decoration: none;
+		color: #073763;
+	}
+	.portfolio-github-link-container a:hover{
+		text-decoration: none;
+		color: #b4bec6;
+	}
+/*This ends the portfolio page section*/
+
+
+
+/*This starts the resume page section*/
+	.resume-container{
+		position: static;
+		margin: auto;
+		width: 790px;
+		padding-top: 40px;
+		padding-left: 100px;
+		padding-right: 100px;
+		padding-bottom: 60px;
+		text-align: justify;
+		background-color: white;
+	}
+/*This ends the resume page section*/
+
+
+
+/*This starts the contact page section*/
+	.contact-container{
+		position: static;
+		margin: auto;
+		width: 790px;
+		padding-top: 40px;
+		padding-left: 100px;
+		padding-right: 100px;
+		padding-bottom: 80px;
+		text-align: justify;
+		background-color: white;
+	}
+	.contact-info{
+		text-indent: 11px;
+	}
+	.contact-info ul{
+		text-indent: -48px;
+	}
+	.contact-info ul li{
+		display: inline-block;
+		background-color: white;
+		text-indent: 20px; 
+		list-style-type: none;
+	}
+	.contact-form-container-left{
+		display: inline-block;
+		background-color: white;
+		width: 45%;
+		border: 1px solid #FFFFFF;
+	}
+	.contact-form-container-left h2{
+		color: #0b5394;
+	}
+	.contact-form-container-right{
+		display: inline-block;
+		background-color: white;
+		width: 45%;
+		border: 1px solid #FFFFFF;
+	}
+	.contact-form-container-right h2{
+		color: #0b5394;
+	}	
+	.contact-form-container{
+		display: inline-block;
+		background-color: white;
+		width: 100%;
+		border: 1px solid #FFFFFF;
+	}
+	.contact-form-container h2{
+		color: #0b5394;
+	}
+	.contact-label{
+		color: #0b5394;
+	}
+	.contact-input{
+		position: static;
+		width: 95%;
+		height: 18px;
+		background-color: #FFFFFF;
+		border: 2px solid #b4bec6;
+	}
+	.contact-input::-webkit-input-placeholder{
+		color: gray;
+	}
+	.contact-input::-moz-placeholder{
+		color: gray;
+	}
+	.contact-input::-ms-input-placeholder{
+		color: gray;
+	}
+	.contact-input::-moz-placeholder{
+		color: gray;
+	}
+	.contact-input:invalid{
+		color: red;
+		border: 2px red solid;
+	}
+	.contact-button{
+		margin-top: 35px;
+		margin-left: 10px;
+		margin-right: 15px;
+		border: 2px solid #b4bec6;
+		width: 25%;
+		height: 55px;
+		cursor: pointer;
+	}
+
+	select{
+		width: 75%;
+		height: 25px;
+		background-color: #FFFFFF;
+		border: 2px solid #b4bec6;
+	}
+/*This ends the resume page section*/
