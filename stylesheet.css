@@ -21,6 +21,7 @@
 		font-family: Michroma, serif;
 	}
 	h2{
+		font-family: Open Sans, serif;
 		font-size: 16px;
 		color: #0b5394;
 	}
@@ -226,6 +227,9 @@
 		padding-bottom: 60px;
 		text-align: justify;
 		background-color: white;
+	}
+	.resume-container ul{
+		text-decoration: all;
 	}
 /*This ends the resume page section*/
 
