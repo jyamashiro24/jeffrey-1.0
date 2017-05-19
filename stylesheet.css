@@ -304,10 +304,10 @@
 	.contact-input::-moz-placeholder{
 		color: gray;
 	}
-	.contact-input:invalid{
+	/*.contact-input:invalid{
 		color: red;
 		border: 2px red solid;
-	}
+	}*/
 	.contact-button{
 		margin-top: 35px;
 		margin-left: 10px;
